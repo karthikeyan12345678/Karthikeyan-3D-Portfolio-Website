@@ -97,14 +97,6 @@ npm run build    # production build into dist/
 
 > **Note:** the discus fish model (`fish_2.glb`) is not included because its Sketchfab Standard licence does not allow redistribution. The site runs fine without it. To restore it, add your own model at `public/assets/fish/fish_2.glb`.
 
-## Credits and licences
-
-- Card geometry derived from "Credit card" by Aya Dja, CC BY 4.0 (https://sketchfab.com/ayadja1977). Original textures removed, materials replaced.
-- Fish models from Sketchfab by Yimit, yellowberry666, Thunk3D scanner, Jiri Hnidek, BlueMesh, 7PLUS, local.yany, GenEugene and The SpezX, all CC BY 4.0.
-- Manta by misaooo and Red Betta Fish by Elinor Quittner are CC BY-NC 4.0, so non-commercial use only.
-- Fonts: Chakra Petch, Manrope and Marcellus via Fontsource (SIL Open Font License).
-- Full credits with links: `public/assets/credits/`
-
 ## Author
 
 **Karthikeyan V** - Technical Program Manager and Product Manager (XR, AI/LLM, enterprise delivery), Chennai, India.
