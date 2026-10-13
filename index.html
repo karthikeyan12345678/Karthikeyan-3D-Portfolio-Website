@@ -1,0 +1,359 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Karthikeyan V | Technical Program and Product Manager</title>
+  <meta name="description" content="Karthikeyan V is a Technical Program Manager and Product Manager with 5+ years delivering XR, AI/LLM and enterprise programs across healthcare, defence, automotive and education." />
+  <meta name="theme-color" content="#0d3a8a" />
+  <meta property="og:title" content="Karthikeyan V | Technical Program and Product Manager" />
+  <meta property="og:description" content="XR, AI and enterprise programs delivered on time. 5+ years, 10+ concurrent programs, 95% on-time delivery." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="og-image.jpg" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+  <link rel="preload" href="fonts/marcellus-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="preload" href="fonts/manrope-latin-600-normal.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="preload" href="fonts/chakra-petch-latin-500-normal.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="stylesheet" href="assets/app.css" />
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <canvas id="gl" aria-hidden="true"></canvas>
+  <div class="rays" aria-hidden="true"></div>
+  <div class="caustics" aria-hidden="true"></div>
+
+  <header class="nav">
+    <a class="nav__logo" href="#hero" aria-label="Karthikeyan V, back to top">K<span>.</span>V</a>
+    <nav aria-label="Primary">
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#work">Work</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <aside class="hud" aria-label="Journey status">
+    <p class="hud__place" id="hudPlace">Home</p>
+    <p class="hud__progress">Journey progress: <b id="hudPct">0%</b></p>
+    <p class="hud__meta">Depth: <b id="hudDepth">0 m</b><i></i>Temp: <b id="hudTemp">24°C</b></p>
+  </aside>
+  <button class="audio" id="soundToggle" type="button" aria-pressed="false" aria-label="Sound effects">
+    <span class="audio__bars" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></span>
+    <span id="soundText">Tap for sound</span>
+  </button>
+
+  <main id="main">
+    <!-- HERO -->
+    <section class="sec sec--hero" id="hero" data-sec="0" aria-labelledby="heroTitle">
+      <div class="hero__copy">
+        <p class="eyebrow" data-reveal>Chennai, India · open to Bengaluru and relocation</p>
+        <h1 id="heroTitle" data-reveal>
+          <span class="hello">Hello, I’m</span>
+          <span class="name">Karthikeyan&nbsp;V</span>
+        </h1>
+        <p class="role" data-reveal>
+          <span class="role__static">I work as a</span>
+          <span class="role__swap">Technical Program Manager <span class="amp">&amp;</span> Product Manager</span>
+        </p>
+        <p class="lede" data-reveal>
+          I turn ambitious XR, AI and enterprise ideas into products that ship on time, from the first plan of record to the last stakeholder update.
+        </p>
+        <div class="cta" data-reveal>
+          <a class="btn btn--primary" href="#work">See my work</a>
+          <a class="btn btn--ghost" href="Karthikeyan_V_Resume.pdf" download>Download resume</a>
+        </div>
+        <ul class="stats" data-reveal>
+          <li><strong data-count="5" data-suffix="+">5+</strong><span>years delivering</span></li>
+          <li><strong data-count="10" data-suffix="+">10+</strong><span>concurrent programs</span></li>
+          <li><strong data-count="95" data-suffix="%">95%</strong><span>on-time delivery</span></li>
+        </ul>
+      </div>
+      <p class="hint" aria-hidden="true"><i></i>Click the card to flip it. Scroll to spin me around.</p>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="sec sec--right" id="about" data-sec="1" aria-labelledby="aboutTitle">
+      <div class="panel panel--wide">
+        <p class="eyebrow" data-reveal>About</p>
+        <h2 id="aboutTitle" data-reveal>Calm water, clear course.</h2>
+        <p data-reveal>
+          I’m a Technical Program Manager and Product Manager with more than five years of experience owning programs end to end: schedule, scope and budget in the plan of record, then roadmaps, cross-functional delivery and stakeholder communication.
+        </p>
+        <p data-reveal>
+          We partner with Engineering, Design, Data Science and QA across healthcare, automotive, defence and education. Along the way I’ve shipped a VR eye-care application used in hospitals in New York and the UK, surgical training modules for BITS Pilani, and a hospital safety VR experience for Changi.
+        </p>
+        <p data-reveal>
+          Today I’m building an offline, multilingual AI assistant for the Indian defence sector, and using agentic AI tooling to make program tracking about 30% more efficient.
+        </p>
+        <ul class="facts" data-reveal>
+          <li><strong>95%</strong><span>stakeholder satisfaction</span></li>
+          <li><strong>30%</strong><span>efficiency gain from agentic AI</span></li>
+          <li><strong>70%</strong><span>operational efficiency improvement</span></li>
+          <li><strong>20%</strong><span>revenue growth driven</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section class="sec sec--left" id="experience" data-sec="2" aria-labelledby="expTitle">
+      <div class="panel panel--wide">
+        <p class="eyebrow" data-reveal>Experience</p>
+        <h2 id="expTitle" data-reveal>Where the time has gone.</h2>
+        <ol class="timeline">
+          <li data-reveal>
+            <time>May 2026 to present</time>
+            <h3>Technical product consultant, defence AI and agentic systems</h3>
+            <p class="org">Freelance · Thoothukudi (remote)</p>
+            <p>Designing an offline multilingual chatbot with Ollama and Sarvam models (Tamil, Hindi and more) with voice in and out and zero internet dependency. Advising on a holographic display product: scope, user flows and experience architecture.</p>
+          </li>
+          <li data-reveal>
+            <time>Jan 2025 to Apr 2026</time>
+            <h3>Technical program manager and product manager</h3>
+            <p class="org">Next XR Group (formerly VR AR Solutions Australia)</p>
+            <p>Ran 10+ concurrent enterprise programs at 95% on-time delivery. Owned the roadmap for 5+ product areas, led pharma model development for BITS Pilani with SMEs, and deployed agentic AI infrastructure (MCP, LLMs, Vertex AI Gemini) for a 30% efficiency gain.</p>
+          </li>
+          <li data-reveal>
+            <time>Oct 2024 to Jan 2025</time>
+            <h3>Team leader, product and engineering</h3>
+            <p class="org">Next XR Group</p>
+            <p>Led and mentored a team of six, set schedules and tracking, and improved delivery velocity by 30% across cross-functional teams.</p>
+          </li>
+          <li data-reveal>
+            <time>Dec 2021 to Oct 2024</time>
+            <h3>XR developer and product lead, scrum master, associate system engineer</h3>
+            <p class="org">Tata Consultancy Services · Chennai</p>
+            <p>Delivered for five enterprise clients across defence, banking and education. Built the J&amp;J Eye Care XR application over a two-year engagement, a real-time pipeline handling 500+ units an hour at 95% accuracy, and a platform serving 3,000+ users.</p>
+          </li>
+          <li data-reveal>
+            <time>Feb 2021 to Dec 2021</time>
+            <h3>Freelance web developer</h3>
+            <p class="org">Thoothukudi</p>
+            <p>Sole product owner for 8+ concurrent B2C engagements, with 100% client retention.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- WORK -->
+    <section class="sec sec--full" id="work" data-sec="3" aria-labelledby="workTitle">
+      <div class="sec__head">
+        <p class="eyebrow" data-reveal>Selected work</p>
+        <h2 id="workTitle" data-reveal>Programs we’re proud of.</h2>
+      </div>
+      <ul class="grid">
+        <li class="card3d" data-reveal>
+          <p class="tag">Defence · AI</p>
+          <h3>Offline multilingual chatbot</h3>
+          <p>Native-language answers in Tamil, Hindi and other Indian languages using Ollama and Sarvam models. Language dropdown, voice input, spoken replies, all served locally with no internet.</p>
+        </li>
+        <li class="card3d" data-reveal>
+          <p class="tag">Defence · Spatial computing</p>
+          <h3>AI holographic display advisory</h3>
+          <p>Zero-to-one product direction: initial scope, user flows and experience architecture for an AI-powered holographic display, shaped with Figma wireframes and agentic tooling.</p>
+        </li>
+        <li class="card3d" data-reveal>
+          <p class="tag">Healthcare · XR</p>
+          <h3>J&amp;J Eye Care XR application</h3>
+          <p>A two-year engagement delivering an eye-care application deployed to hospitals in New York and the UK.</p>
+        </li>
+        <li class="card3d" data-reveal>
+          <p class="tag">Education · Medical</p>
+          <h3>BITS Pilani surgical training</h3>
+          <p>Kidney, dental and liver surgery modules for the Human Anatomy program, built with subject matter experts, plus pharma model development.</p>
+        </li>
+        <li class="card3d" data-reveal>
+          <p class="tag">Safety · VR</p>
+          <h3>Changi hospital safety VR</h3>
+          <p>A fire extinguisher training experience for the Changi Hospital team.</p>
+        </li>
+        <li class="card3d" data-reveal>
+          <p class="tag">Operations · Agentic AI</p>
+          <h3>Agentic program operations</h3>
+          <p>MCP multi-agent orchestration, LLM integration and the Vertex AI Gemini API streamlining tracking and reporting, a 30% efficiency gain with responsible AI practices.</p>
+        </li>
+      </ul>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="sec sec--full" id="projects" data-sec="4" aria-labelledby="projTitle">
+      <div class="sec__head">
+        <p class="eyebrow" data-reveal>Projects</p>
+        <h2 id="projTitle" data-reveal>Projects I’ve built.</h2>
+        <div class="filters" role="group" aria-label="Filter projects" data-reveal>
+          <button type="button" class="chip is-on" data-filter="all" aria-pressed="true">All <span>18</span></button>
+          <button type="button" class="chip" data-filter="AR" aria-pressed="false">AR <span>6</span></button>
+          <button type="button" class="chip" data-filter="VR" aria-pressed="false">VR <span>6</span></button>
+          <button type="button" class="chip" data-filter="XR" aria-pressed="false">XR <span>2</span></button>
+          <button type="button" class="chip" data-filter="AI" aria-pressed="false">AI <span>3</span></button>
+          <button type="button" class="chip" data-filter="WEB" aria-pressed="false">Web <span>1</span></button>
+        </div>
+      </div>
+      <ul class="grid grid--proj" id="projGrid">
+        <li class="card3d proj" data-cat="AR" data-reveal>
+          <p class="tag"><span class="badge">AR</span> L&amp;T (Larsen &amp; Toubro)</p>
+          <h3>AI-Powered AR Anomaly Detection</h3>
+          <p>Enterprise AR solution overlaying real-time AI anomaly detection on industrial equipment at L&amp;T manufacturing sites using HoloLens 2.</p>
+          <ul class="chips"><li>AR</li><li>HoloLens 2</li><li>AI/ML</li><li>Azure IoT</li></ul>
+        </li>
+        <li class="card3d proj" data-cat="AI" data-reveal>
+          <p class="tag"><span class="badge">AI</span> Amphenol</p>
+          <h3>Wire AI Anomaly Detection</h3>
+          <p>ML pipeline detecting wire harness defects on Amphenol assembly lines, cutting QA time by 60% with real-time edge inference.</p>
+          <ul class="chips"><li>AI/ML</li><li>Computer Vision</li><li>AWS</li><li>Edge AI</li></ul>
+        </li>
+        <li class="card3d proj" data-cat="AI" data-reveal>
+          <p class="tag"><span class="badge">AI</span> Enterprise SaaS</p>
+          <h3>AI Image-to-3D Generator</h3>
+          <p>Full-stack SaaS platform converting 2D product images into interactive 3D models using generative AI, deployed on AWS.</p>
+          <ul class="chips"><li>AI/ML</li><li>Three.js</li><li>AWS Lambda</li><li>Python</li></ul>
+        </li>
+        <li class="card3d proj" data-cat="AR" data-reveal>
+          <p class="tag"><span class="badge">AR</span> E-Commerce</p>
+          <h3>Virtual Try-On App</h3>
+          <p>Real-time AR virtual try-on for apparel &amp; accessories using MediaPipe pose estimation and WebXR in the browser.</p>
+          <ul class="chips"><li>AR</li><li>MediaPipe</li><li>WebXR</li><li>React</li></ul>
+        </li>
+        <li class="card3d proj" data-cat="AR" data-reveal>
+          <p class="tag"><span class="badge">AR</span> Startup</p>
+          <h3>AR SaaS: Business Card Platform</h3>
+          <p>AR-powered digital business card platform enabling enterprises to embed interactive AR content in NFC-triggered experiences.</p>
+          <ul class="chips"><li>AR</li><li>Unity</li><li>NFC</li><li>REST API</li></ul>
+        </li>
+        <li class="card3d proj" data-cat="AR" data-reveal>
+          <p class="tag"><span class="badge">AR</span> Enterprise</p>
+          <h3>Remote Assistance AR Platform</h3>
+          <p>HoloLens 2 remote assistance solution letting expert engineers guide field technicians through live AR annotations.</p>
+          <ul class="chips"><li>AR</li><li>HoloLens 2</li><li>WebRTC</li><li>Azure</li></ul>
+        </li>
+        <li class="card3d proj" data-cat="VR" data-reveal>
+          <p class="tag"><span class="badge">VR</span> TAFE</p>
+          <h3>Welding VR Simulator</h3>
+          <p>Immersive VR welding trainer for TAFE students with real-time torch feedback, grading, and performance analytics.</p>
+          <ul class="chips"><li>VR</li><li>Unity</li><li>Meta Quest</li><li>C#</li></ul>
+        </li>
+        <li class="card3d proj" data-cat="VR" data-reveal>
+          <p class="tag"><span class="badge">VR</span> TAFE</p>
+          <h3>Carpentry VR Training</h3>
+          <p>Hands-on VR carpentry curriculum covering joinery, measurement, and safety, deployed across TAFE workshops nationwide.</p>
+          <ul class="chips"><li>VR</li><li>Unity</li><li>Oculus SDK</li><li>C#</li></ul>
+        </li>
+        <li class="card3d proj" data-cat="VR" data-reveal>
+          <p class="tag"><span class="badge">VR</span> Enterprise</p>
+          <h3>Boom Lift VR Simulator</h3>
+          <p>High-fidelity VR boom lift operator trainer with realistic physics, safety checklists, and performance scoring.</p>
+          <ul class="chips"><li>VR</li><li>Unity</li><li>Physics</li><li>C#</li></ul>
+        </li>
+        <li class="card3d proj" data-cat="VR" data-reveal>
+          <p class="tag"><span class="badge">VR</span> Defence / Training</p>
+          <h3>Parachute VR Simulator</h3>
+          <p>VR parachute training simulator covering body position, altitude awareness, and landing for pre-jump rehearsal.</p>
+          <ul class="chips"><li>VR</li><li>Unity</li><li>Meta Quest</li><li>C#</li></ul>
+        </li>
+        <li class="card3d proj" data-cat="XR" data-reveal>
+          <p class="tag"><span class="badge">XR</span> BITS Pilani</p>
+          <h3>BITS Pilani Multiplayer XR LMS</h3>
+          <p>Multiplayer XR learning platform enabling collaborative virtual labs, lectures, and live instructor sessions.</p>
+          <ul class="chips"><li>XR</li><li>Photon</li><li>Unity</li><li>Agora</li></ul>
+        </li>
+        <li class="card3d proj" data-cat="XR" data-reveal>
+          <p class="tag"><span class="badge">XR</span> FinTech</p>
+          <h3>Metaverse Banking Platform</h3>
+          <p>Virtual bank branch in the metaverse letting customers interact with advisors, products, and financial tools in 3D.</p>
+          <ul class="chips"><li>Metaverse</li><li>Unity</li><li>WebRTC</li><li>AWS</li></ul>
+        </li>
+        <li class="card3d proj" data-cat="AR" data-reveal>
+          <p class="tag"><span class="badge">AR</span> Enterprise</p>
+          <h3>Fire Safety MR Training</h3>
+          <p>Mixed Reality fire safety drill platform overlaying emergency scenarios onto real workplace environments via HoloLens 2.</p>
+          <ul class="chips"><li>MR</li><li>HoloLens 2</li><li>Unity</li><li>C#</li></ul>
+        </li>
+        <li class="card3d proj" data-cat="AR" data-reveal>
+          <p class="tag"><span class="badge">AR</span> Entertainment</p>
+          <h3>AR Pose Detection Game</h3>
+          <p>Browser-based AR game using real-time body pose detection for interactive fitness and entertainment experiences.</p>
+          <ul class="chips"><li>AR</li><li>MediaPipe</li><li>WebXR</li><li>JavaScript</li></ul>
+        </li>
+        <li class="card3d proj" data-cat="AI" data-reveal>
+          <p class="tag"><span class="badge">AI</span> FinTech</p>
+          <h3>AR Banking Chatbot</h3>
+          <p>AR-enhanced banking assistant overlaying account insights, transaction graphs, and AI chat in the user's physical space.</p>
+          <ul class="chips"><li>AR</li><li>AI/ML</li><li>React Native</li><li>AWS</li></ul>
+        </li>
+        <li class="card3d proj" data-cat="VR" data-reveal>
+          <p class="tag"><span class="badge">VR</span> Rehabilitation</p>
+          <h3>VR Caren Driving Simulator</h3>
+          <p>Therapeutic VR driving simulation for cognitive &amp; motor rehabilitation, tracking patient performance over sessions.</p>
+          <ul class="chips"><li>VR</li><li>Unity</li><li>Motion Platform</li><li>C#</li></ul>
+        </li>
+        <li class="card3d proj" data-cat="VR" data-reveal>
+          <p class="tag"><span class="badge">VR</span> TAFE</p>
+          <h3>Butcher Training VR</h3>
+          <p>VR butchery skills trainer covering safe knife techniques, hygiene protocols, and meat processing procedures.</p>
+          <ul class="chips"><li>VR</li><li>Unity</li><li>Meta Quest</li><li>C#</li></ul>
+        </li>
+        <li class="card3d proj" data-cat="WEB" data-reveal>
+          <p class="tag"><span class="badge">Web</span> Freelance</p>
+          <h3>E-Commerce Web Solutions</h3>
+          <p>Full-stack e-commerce platforms with custom CMS, payment integration, and real-time inventory for SME clients.</p>
+          <ul class="chips"><li>React</li><li>Node.js</li><li>MongoDB</li><li>AWS</li></ul>
+        </li>
+      </ul>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="sec sec--skills" id="skills" data-sec="5" aria-labelledby="skillsTitle">
+      <div class="sec__head">
+        <p class="eyebrow" data-reveal>Skills and credentials</p>
+        <h2 id="skillsTitle" data-reveal>Tools in the toolbox.</h2>
+      </div>
+      <div class="marquee" aria-hidden="true">
+        <div class="marquee__row"><span>Plan of record</span><span>Risk and issue management</span><span>Agile and Scrum</span><span>Jira</span><span>MS Project</span><span>Roadmaps</span><span>PRDs and BRDs</span><span>Stakeholder management</span><span>Plan of record</span><span>Risk and issue management</span><span>Agile and Scrum</span><span>Jira</span><span>MS Project</span><span>Roadmaps</span><span>PRDs and BRDs</span><span>Stakeholder management</span></div>
+        <div class="marquee__row marquee__row--rev"><span>Unity</span><span>C#</span><span>Python</span><span>React</span><span>AR Foundation</span><span>MediaPipe</span><span>OpenCV</span><span>TensorFlow</span><span>MCP</span><span>Claude API</span><span>Vertex AI Gemini</span><span>Ollama</span><span>Unity</span><span>C#</span><span>Python</span><span>React</span><span>AR Foundation</span><span>MediaPipe</span><span>OpenCV</span><span>TensorFlow</span><span>MCP</span><span>Claude API</span><span>Vertex AI Gemini</span><span>Ollama</span></div>
+      </div>
+      <ul class="sr-only">
+        <li>Program management: plan of record, risk and issue management, Agile, Scrum, Jira, MS Project.</li>
+        <li>Engineering: Unity, C#, Python, React, AR Foundation, MediaPipe, OpenCV, TensorFlow.</li>
+        <li>AI: MCP, Claude API, Vertex AI Gemini, Ollama.</li>
+      </ul>
+      <div class="panel panel--creds">
+        <ul class="creds">
+          <li data-reveal><h3>AWS Certified Developer, Associate</h3><p>Amazon Web Services · 2023</p></li>
+          <li data-reveal><h3>Vertex AI Gemini API skill badge</h3><p>Google Cloud · Machine learning and AI · 2026</p></li>
+          <li data-reveal><h3>Anthropic certifications</h3><p>Claude API · Introduction to MCP · AI Fluency · Claude Code in Action · Claude Platform 101 · 2026</p></li>
+          <li data-reveal><h3>PMI Authorized Training Partner badge</h3><p>LinkedIn Learning · Scrum, MS Project, Agile · 2025 to 2026</p></li>
+          <li data-reveal><h3>B.E. Mechatronics Engineering</h3><p>Kamaraj College of Engineering and Technology · 2017 to 2021</p></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="sec sec--contact" id="contact" data-sec="6" aria-labelledby="contactTitle">
+      <div class="contact">
+        <p class="eyebrow" data-reveal>Contact</p>
+        <h2 id="contactTitle" data-reveal>Let’s build something that ships.</h2>
+        <p data-reveal>Open to senior program and product roles in Bengaluru, Chennai or anywhere you need me.</p>
+        <div class="cta cta--center" data-reveal>
+          <a class="btn btn--primary" href="mailto:vkarthikeyan14@gmail.com">vkarthikeyan14@gmail.com</a>
+          <a class="btn btn--ghost" href="https://www.linkedin.com/in/karthikeyan-v-8a203a195" target="_blank" rel="noopener">LinkedIn</a>
+          <a class="btn btn--ghost" href="https://github.com/karthikeyan12345678" target="_blank" rel="noopener">GitHub</a>
+        </div>
+        <div class="cta cta--center" data-reveal>
+          <a class="btn btn--ghost" href="tel:+919486615293">Call +91 94866 15293</a>
+          <a class="btn btn--ghost" href="tel:+916381062620">Call +91 63810 62620</a>
+        </div>
+      </div>
+      <footer class="foot">
+        <p>© 2026 Karthikeyan V</p>
+      </footer>
+    </section>
+  </main>
+
+  <script type="module" src="assets/app.js"></script>
+</body>
+</html>

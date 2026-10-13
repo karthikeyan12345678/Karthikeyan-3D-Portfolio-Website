@@ -1,0 +1,25 @@
+{
+  "name": "karthikeyan-portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build": "node build.mjs",
+    "dev": "node build.mjs && npx http-server dist -p 8080 -c-1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fontsource/chakra-petch": "^5.3.0",
+    "@fontsource/manrope": "^5.3.0",
+    "@fontsource/marcellus": "^5.3.0",
+    "@gltf-transform/cli": "^4.5.1",
+    "esbuild": "^0.28.2",
+    "gsap": "^3.15.0",
+    "lenis": "^1.3.26",
+    "sharp": "^0.35.5",
+    "three": "^0.186.1"
+  },
+  "private": true,
+  "type": "module"
+}

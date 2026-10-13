@@ -1,0 +1,3 @@
+Card geometry derived from 'Credit card' by Aya Dja (https://sketchfab.com/ayadja1977), CC-BY-4.0.
+Source: https://sketchfab.com/3d-models/credit-card-4c4117d766f342cc9e0fa3d79e9de654
+Original textures removed; materials replaced.

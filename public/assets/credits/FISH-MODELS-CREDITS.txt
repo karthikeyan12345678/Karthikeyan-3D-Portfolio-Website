@@ -1,0 +1,28 @@
+3D MODEL CREDITS (fish)
+These models are from Sketchfab and are used under the licences below. Keep this file with the site.
+CC-BY-4.0 = https://creativecommons.org/licenses/by/4.0/   CC-BY-NC-4.0 = https://creativecommons.org/licenses/by-nc/4.0/  (non-commercial use only)
+
+- Fish (file: fish) by Yimit (https://sketchfab.com/yimit) - CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+  https://sketchfab.com/3d-models/fish-c4328d6c1ae445198abc1a3d4c1e2570
+- Fish (file: fish_1) by yellowberry666 (https://sketchfab.com/yellowberry666) - CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+  https://sketchfab.com/3d-models/fish-f406f88539fb4589b6f10bea3000ec32
+- Fish (file: fish_2) by assetfactory (https://sketchfab.com/assetfactory) - SKETCHFAB Standard (https://sketchfab.com/licenses)
+  https://sketchfab.com/3d-models/fish-74e57a9de7a24975b02d236ea3be614f
+- Fish (file: fish_3) by Thunk3D scanner (https://sketchfab.com/Diana123456) - CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+  https://sketchfab.com/3d-models/fish-2edbc3b679ae488191bb5a15f85816fe
+- Fish (file: fish_4) by Jiri Hnidek (https://sketchfab.com/jiri.hnidek) - CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+  https://sketchfab.com/3d-models/fish-5fd6e52ab986427aa706c3376b2f86e0
+- Guppy Fish (file: guppy_fish) by BlueMesh (https://sketchfab.com/VapTor) - CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+  https://sketchfab.com/3d-models/guppy-fish-21e14e4b961e406385539f79eacdb1dc
+- Koi Fish (file: koi_fish) by 7PLUS (https://sketchfab.com/7plus) - CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+  https://sketchfab.com/3d-models/koi-fish-236859b809984f52b70c94fd040b9c59
+- Koi Fish (file: koi_fish_1) by local.yany (https://sketchfab.com/local.yany) - CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+  https://sketchfab.com/3d-models/koi-fish-8bc4556dbd9b4991ac877d24ab2d0081
+- MANTA (file: manta) by misaooo (https://sketchfab.com/misaooo) - CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)
+  https://sketchfab.com/3d-models/manta-cdc4752c492c43559caa4cfb528000d8
+- Red Betta Fish (file: red_betta_fish) by Elinor Quittner (https://sketchfab.com/elqui) - CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)
+  https://sketchfab.com/3d-models/red-betta-fish-e088615fe2934a92be6316782d25f93a
+- Shiny Fish (file: shiny_fish) by GenEugene (https://sketchfab.com/geneugene) - CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+  https://sketchfab.com/3d-models/shiny-fish-e0bddbcafc5e48c097b40b4bada3811a
+- Small fish (file: small_fish) by The SpezX (https://sketchfab.com/SpezX) - CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+  https://sketchfab.com/3d-models/small-fish-8f5de32946f347a0b6c8e55c6a66d46d
